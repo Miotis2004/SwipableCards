@@ -11,6 +11,9 @@
 		FD4BF2C325799D9500085189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF2C225799D9500085189 /* ContentView.swift */; };
 		FD4BF2C525799D9500085189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BF2C425799D9500085189 /* Assets.xcassets */; };
 		FD4BF2C825799D9500085189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BF2C725799D9500085189 /* Preview Assets.xcassets */; };
+		FD4BF2D325799DE300085189 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF2D225799DE300085189 /* DateView.swift */; };
+		FD4BF2D725799F0E00085189 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF2D625799F0E00085189 /* CardView.swift */; };
+		FD4BF2DB2579B21E00085189 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF2DA2579B21E00085189 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		FD4BF2C425799D9500085189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4BF2C725799D9500085189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD4BF2C925799D9500085189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4BF2D225799DE300085189 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		FD4BF2D625799F0E00085189 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FD4BF2DA2579B21E00085189 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,9 @@
 		FD4BF2BF25799D9500085189 /* SwipableCards */ = {
 			isa = PBXGroup;
 			children = (
-				FD4BF2C025799D9500085189 /* SwipableCardsApp.swift */,
-				FD4BF2C225799D9500085189 /* ContentView.swift */,
+				FD4BF2D92579B20200085189 /* Models */,
+				FD4BF2D125799DC900085189 /* App */,
+				FD4BF2D025799DC100085189 /* Views */,
 				FD4BF2C425799D9500085189 /* Assets.xcassets */,
 				FD4BF2C925799D9500085189 /* Info.plist */,
 				FD4BF2C625799D9500085189 /* Preview Content */,
@@ -67,6 +74,32 @@
 				FD4BF2C725799D9500085189 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD4BF2D025799DC100085189 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BF2C225799D9500085189 /* ContentView.swift */,
+				FD4BF2D225799DE300085189 /* DateView.swift */,
+				FD4BF2D625799F0E00085189 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD4BF2D125799DC900085189 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BF2C025799D9500085189 /* SwipableCardsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD4BF2D92579B20200085189 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BF2DA2579B21E00085189 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4BF2D325799DE300085189 /* DateView.swift in Sources */,
 				FD4BF2C325799D9500085189 /* ContentView.swift in Sources */,
+				FD4BF2D725799F0E00085189 /* CardView.swift in Sources */,
+				FD4BF2DB2579B21E00085189 /* User.swift in Sources */,
 				FD4BF2C125799D9500085189 /* SwipableCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
